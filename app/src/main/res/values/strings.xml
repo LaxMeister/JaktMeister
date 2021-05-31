@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">JaktMeister</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Meddelanden</string>
+
+    <string name="menu_home">Karta</string>
+    <string name="menu_gallery">Fördela pass</string>
+    <string name="menu_slideshow">Meddelanden</string>
+    <string name="menu_huntingteam">Jaktlag</string>
+
+    <!--Authentication Login -->
+    <string name="login_email">Epost</string>
+    <string name="login_password">Lösenord</string>
+    <string name="login_forgot_password">Glömt lösenord?</string>
+    <string name="login_register_user">Registrera användare</string>
+    <string name="login_login">Logga in</string>
+    <string name="login_or">eller</string>
+    <string name="login_keep_me_signed_in">Håll mig inloggad</string>
+
+    <!-- Authentication Register-->
+    <string name="register_phonenumber">Telefonummer</string>
+    <string name="register_firstname">Förnamn</string>
+    <string name="register_lastname">Efternamn</string>
+    <string name="register_email">Epost</string>
+    <string name="register_password">Lösenord</string>
+    <string name="register_repeat_password">Repetera Lösenord</string>
+    <string name="register_eula">Jag har läst och godkänner avtalen</string>
+    <string name="register_gdpr">Jag har läst och godkänner GDPR</string>
+    <string name="register_cancel">Avbryt</string>
+    <string name="register_register">Registrera</string>
+
+    <!-- Authentication Reset_Password -->
+    <string name="reset_password_email">Epost</string>
+    <string name="reset_password_send">Skicka</string>
+    <string name="reset_password_info">Fyll i din Epost address så skickas en länk för att återställa lösenordet</string>
+    <string name="reset_password_cancel">Avbryt</string>
+
+    <!-- Authentication First_Login_With_Google-->
+    <string name="first_login_phonenumber">Telefonnummer</string>
+    <string name="first_login_logout">Logga ut</string>
+    <string name="first_login_update">Uppdatera</string>
+    <string name="first_login_eula">Jag har läst och godkänner avtalen</string>
+    <string name="first_login_gdpr">Jag har läst och godkänner GDPR</string>
+    <string name="first_login_info">Innan du kan logga in med ditt Google-konto måste vi ha ditt telefonnummer samt godkänna användaravtalen</string>
+
+    <!-- Activity_Message -->
+    <string name="activity_message_textbox">Skriv ett meddelande</string>
+
+    <!-- HuntingTeam Main -->
+    <string name="hunting_team_name_label">Name of Team</string>
+    <string name="hunting_team_connection_code_label">ConnectionC0de</string>
+    <string name="hunting_team_admin_label">Jaktledare</string>
+    <string name="hunting_team_button_members">Medlemmar</string>
+    <string name="hunting_team_button_return">Tillbaka</string>
+    <string name="hunting_team_button_leave_team">Lämna lag</string>
+    <string name="hunting_team_button_change_team">Byt lag</string>
+    <string name="hunting_team_button_create_team">Skapa nytt lag</string>
+    <string name="teamCode">Lagkod:</string>
+
+    <!-- HuntingTeam Create_HuntingTeam -->
+    <string name="create_huntingteam_info">Skapa jaktlag</string>
+    <string name="create_huntingteam_name">Namn</string>
+    <string name="create_huntingteam_button">Skapa</string>
+    <string name="create_huntingteam_code">Anslutningskod</string>
+
+    <!-- HuntingTeam Join -->
+    <string name="join_hunting_team_code">Anslutningskod</string>
+    <string name="join_hunting_team_button">Gå med</string>
+
+    <!-- HuntingTeam After_Login -->
+    <string name="after_login_hunting_join">Gå med i jaktlag</string>
+    <string name="after_login_hunting_create">Skapa jaktlag</string>
+    <string name="after_login_hunting_continue">Fortsätt utan jaktlag</string>
+
+
+    <!-- ? -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="access_token">pk.eyJ1IjoibGFqdyIsImEiOiJja2tnazI5YWwxNDAzMnZtbjUzZmE0Nnk1In0.d1_AYeRHi7M2FCR7O-6kCg</string>
+    <string name="my_location_btn">my_location</string>
+    <string name="user_location_permission_not_granted" />
+    <string name="user_location_permission_explanation" />
+    <string name="current_location" />
+    <string name="tracking_enabled">Tracking enabled</string>
+    <string name="tracking_already_enabled">Tracking already enabled</string>
+    <string name="draw_btn">Rita</string>
+    <string name="clear_all">Ta Bort</string>
+    <string name="add_marker">Add marker</string>
+    <string name="aim_marker">Aim marker</string>
+    <string name="back_rootbtn" />
+    <string name="place_pass" />
+    <string name="clear_button" />
+    <string name="fill_huntingarea" />
+    <string name="fill_huntingareaBtn">Klar</string>
+    <string name="save_CoolPassBtn">Spara Jaktområde</string>
+    <string name="fill_huntingareaBtn2">Spara</string>
+    <string name="trace_instruction">Sätt ut minst 3 punkter och avsluta med klar</string>
+    <string name="click_on_map_instruction">tryck på kartan för att sätta ut pass</string>
+    <string name="button_randomize">Fördela Pass</string>
+    <string name="pass_lable_name">Namn</string>
+    <string name="cool_lable_name_hint">Namn på deltagare</string>
+    <string name="cool_lable_number_hint">Tilldela pass nummer</string>
+    <string name="cool_stand_add_btn">Lägg till</string>
+    <string name="dialog_message">Du är framme vid passet, stämmer det?</string>
+    <string name="questiondialog_message">Vill du redigera passet eller sätta passet som din destnination? </string>
+    <string name="dialog_title">Framme!</string>
+    <string name="dialog_title2">Fråga!</string>
+    <string name="dialog_message_save">Skriv ett namn på området</string>
+    <string name="jointeam_dialog_text"></string>
+    <string name="dialog_title_save">Spara som</string>
+    <string name="ok">Ja</string>
+    <string name="editPass">Redigera pass</string>
+    <string name="destinationPass">Sätt destination</string>
+    <string name="cancel">Nej</string>
+    <string name="new_location" />
+    <string name="areaname_save" />
+    <string name="yes_button">Ja</string>
+    <string name="no_button">Nej</string>
+    <string name="abort_button">Avbryt</string>
+    <string name="upload_button">Ladda upp bild</string>
+    <string name="upload_description">en bild</string>
+    <string name="edit_pass_hint">Skriv information om passet här</string>
+    <string name="active_cool_switch">Aktiv</string>
+    <string name="loadlist_dialog_title">Välj område att hämta</string>
+    <string name="first_dialog_title">Välj jaktlag</string>
+    <string name="update_areabtn">Uppdatera</string>
+    <string name="Logout">Logga ut</string>
+    <string name="Logout_n_quit">Logga ut och stäng av</string>
+    <string name="Logout_message">Vill du Logga ut eller Logga ut och stänga av?</string>
+    <string name="Logout_title">Logga ut?</string>
+    <string name="SlumpText">"Skriv in namn och passnummer på personen som ska vara med och jaga och tryck sen på lägga till.\n\nNär du har lagt in alla personer tycker du sen på välj datum." </string>
+    <string name="SlumpText2">"1. Välj jaktområde.\n\n2. Välj datum för jakten.\n\n3. Skriv in namn, om personen ska ha ett specifikt passnummer skriver du in det annars lämna det tomt. tryck sen på lägg till.\n\n4. När du är färdig tycker du på Fördela pass" </string>
+    <string name="cool_Choose_AreaBtn">Välj område</string>
+    <string name="cool_Choose_DateBtn">Välj datum</string>
+    <string name="joinTeam">Gå med</string>
+    <string name="createTeam">Skapa</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Strings used for chat buttons-->
+    <string name="chat_button">Privat meddelande</string>
+    <string name="group_chat_button">Gruppmeddelanden</string>
+    <string name="jaktlag">Jaktlag:</string>
+
+    <!-- Strings used for Notification-->
+    <string name="Server_key">key=AAAAkuBCX_0:APA91bHOKQXvKqnS8l_1JIaDUZrkBdT-9h-yX5L5IFJobvaPeIw83DzihyBplR-T3Ha3-YPUUnLznfO3A9zocjkt4deXifW8NlV2lZfq-4TsBXtrZ649opiJUMrCqvJHX8oU5tV8sUhV</string>
+    <string name="FCM_API">https://fcm.googleapis.com/fcm/send</string>
+    <string name="content_type">application/json</string>
+    <string name="titleCreateTeam">Skriv namn på laget</string>
+    <string name="titleJoinTeam">Skriv in lagkod</string>
+    <string name="chat_messages">chat_messages</string>
+</resources>

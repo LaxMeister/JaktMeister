@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.homeMap.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            mapbox:mapbox_cameraZoom="10"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="105dp">
+
+        </com.mapbox.mapboxsdk.maps.MapView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/back_to_camera_tracking_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/my_location_btn"
+            android:src="@android:drawable/ic_menu_mylocation"
+            android:visibility="visible"
+            app:backgroundTint="#ffaa19"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toBottomOf="@+id/mapView"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/place_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/place_pass"
+            android:src="@drawable/ic_watchtower"
+            android:visibility="invisible"
+            app:backgroundTint="#ffaa19"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toTopOf="@+id/cool_save"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ladda_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/place_pass"
+            android:src="@drawable/ic_menu_gallery"
+            android:visibility="visible"
+            app:backgroundTint="#ffaa19"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toTopOf="@+id/draw"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/draw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/draw_btn"
+            android:src="@android:drawable/ic_menu_edit"
+            android:visibility="visible"
+            app:backgroundTint="#ffaa19"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toTopOf="@+id/back_to_camera_tracking_mode"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/cool_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/add_marker"
+            android:src="@android:drawable/ic_menu_save"
+            android:visibility="invisible"
+            app:backgroundTint="#ffaa19"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/show_rootBtns2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/back_rootbtn"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:visibility="invisible"
+            app:backgroundTint="#b42364"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toTopOf="@+id/undo_pass"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/show_rootBtns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/back_rootbtn"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:visibility="invisible"
+            app:backgroundTint="#b42364"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toTopOf="@+id/undo_areapoint"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/undo_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/place_pass"
+            android:src="@android:drawable/ic_menu_revert"
+            android:visibility="invisible"
+            app:backgroundTint="#ffaa19"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/undo_areapoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/clear_button"
+            android:src="@android:drawable/ic_menu_revert"
+            android:visibility="invisible"
+            app:backgroundTint="#ffaa19"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toTopOf="@+id/clear_button"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/fill_huntingarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/fill_huntingarea"
+            android:text="@string/fill_huntingareaBtn"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/mapView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/update_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="@string/fill_huntingarea"
+            android:text="@string/update_areabtn"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/clear_button"
+            android:src="@android:drawable/ic_menu_delete"
+            android:visibility="invisible"
+            app:backgroundTint="#ffaa19"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toTopOf="@+id/place_pass"
+            app:layout_constraintEnd_toEndOf="@+id/mapView" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/clear_button_edit_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/clear_button"
+            android:src="@android:drawable/ic_menu_delete"
+            android:visibility="invisible"
+            app:backgroundTint="#ffaa19"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toTopOf="@+id/cool_edit_punkt"
+            app:layout_constraintEnd_toEndOf="@+id/mapView" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/cool_edit_punkt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/clear_button"
+            android:src="@android:drawable/ic_menu_edit"
+            android:visibility="invisible"
+            app:backgroundTint="#ffaa19"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toTopOf="@id/cool_save"
+            app:layout_constraintEnd_toEndOf="@+id/mapView" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/show_rootBtns_copy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/back_rootbtn"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:visibility="invisible"
+            app:backgroundTint="#b42364"
+            app:fabCustomSize="70dp"
+            app:layout_constraintBottom_toTopOf="@+id/clear_button_edit_mode"
+            app:layout_constraintEnd_toEndOf="@+id/mapView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

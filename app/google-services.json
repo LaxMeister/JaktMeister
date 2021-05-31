@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "630827671549",
+    "project_id": "lajw-jaktapp",
+    "storage_bucket": "lajw-jaktapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630827671549:android:889248bf679b95882d8394",
+        "android_client_info": {
+          "package_name": "com.lajw.jaktapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630827671549-87dfnrs212lbvkkg10hm29539aj6h0ke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lajw.jaktapp",
+            "certificate_hash": "4682965c27a7299d13a6b4d0d0b7dcaf69a085d4"
+          }
+        },
+        {
+          "client_id": "630827671549-8v42lkujmvm954a40a3oanvdh8dmt9fg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lajw.jaktapp",
+            "certificate_hash": "710fa7f47389a70b7832089367ea0955f3f49de0"
+          }
+        },
+        {
+          "client_id": "630827671549-h19ial46mikbimnt0fnsk52h2qb1d2ls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lajw.jaktapp",
+            "certificate_hash": "9cb74d7d4d96d253b3c0b8f188b315c5463cdb6b"
+          }
+        },
+        {
+          "client_id": "630827671549-tin2ml7mcf6ipr8ojhu5apctqt80i19r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBENhRShzk8M7WfRHI9F-JW55kjuIXHoYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630827671549-tin2ml7mcf6ipr8ojhu5apctqt80i19r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630827671549:android:5136c4adce2a8b2a2d8394",
+        "android_client_info": {
+          "package_name": "com.lajw.jaktmeister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630827671549-tin2ml7mcf6ipr8ojhu5apctqt80i19r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBENhRShzk8M7WfRHI9F-JW55kjuIXHoYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630827671549-tin2ml7mcf6ipr8ojhu5apctqt80i19r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
